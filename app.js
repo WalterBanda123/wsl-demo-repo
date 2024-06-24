@@ -20,7 +20,7 @@ app.get('/api/version-01/testing', async(request, response)=>{
 	}}
 )
 
-
+app.nonExistentMethod();
 
 app.listen(port , ()=>{
 	console.log(`App running on port ${port}`)
