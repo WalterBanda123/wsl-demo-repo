@@ -19,7 +19,7 @@ app.get('/api/version-01/testing', async(request, response)=>{
 		response.send(error);
 	}}
 )
-
+//No existing function
 app.nonExistentMethod();
 
 app.listen(port , ()=>{
