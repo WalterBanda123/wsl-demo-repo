@@ -7,7 +7,7 @@
     "start": "nodemon app.js",
     "build": "npm run lint && npm run copy-files",
     "lint": "echo 'Running linter...' && exit 0", 
-    "copy-files": "echo 'Copying files...' && mkdir -p build && cp index.js build/"
+    "copy-files": "echo 'Copying files...' && mkdir -p build && cp app.js build/"
   },
   "author": "",
   "license": "ISC",
